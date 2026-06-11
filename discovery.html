@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>The Discovery Page</title>
+    <style>
+        .flex {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+        .menu {
+            max-width: 100%;
+            border: 4px solid black;
+            background-color: darkgreen;
+            gap: 20px;
+            padding: 10px;
+            text-shadow: 0px 0px 1px black;
+            margin: 1px;
+        }
+        .bigImage {
+            max-width: 100%;
+            height: 200px;
+            padding: 0px;
+            background: url("DiscoveryBanner.jpg");
+            background-size: cover;
+            border: 4px solid black;
+            margin: 1px;
+        }
+        .body {
+            max-width: 100%;
+            padding: 50px;
+            background-color: green;
+            gap: 500px;
+            border: 4px solid black;
+            margin: 1px;
+        }
+        .footer {
+            max-width: 100%;
+            border: 4px solid black;
+            margin: 1px;
+            background-color: lightgreen;
+            padding: 10px;
+        }
+        .body p {
+            white-space: nowrap;
+        }
+        .body img {
+            flex-shrink: 0;
+        }
+    </style>
+</head>
+<body>
+    <div class="flex menu">
+        <a href="monkdiamonddiscovery.html">The Monk Diamond Discovery</a>/
+        <a href="listapp.html">The List App</a>/
+        <a href="route.html">The Route</a>/
+        <a href="index.html">Home</a>/
+        <a href="diamond.html">The Diamond</a>/
+        <a href="exhibition.html">The Exhibition</a>/
+        <a href="volkov.html">The House of Volkov</a>
+    </div>
+    <div class="bigImage"></div>
+    <div class="body flex">
+        <p>
+            Professor Bairstone and Dr Day, along with Ernest the dog, were on an<br>
+            expedition in Siberia when they discovered the Monk Diamond. It had<br>
+            been hidden in a remote mountain cave. The Bond Brothers attempted to<br>
+            sabotage the expedition and reclaim the diamond but were unsuccessful.<br>
+            The team returned to Moscow with the diamond and a special exhibition is<br>
+            being held at the House of Volkov to celebrate their discovery.<br>
+        </p>
+        <img src="TeamPhotoSquare.jpg" alt="The Team" width="20%">
+    </div>
+    <div class="footer flex">Contact Professor Bairstone: profbairstone@intrepidexlorer.com</div>
+</body>
+</html>

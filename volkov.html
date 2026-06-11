@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>The House of Volkov Page</title>
+    <style>
+        .flex {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+        .menu {
+            max-width: 100%;
+            border: 4px solid black;
+            background-color: blueviolet;
+            gap: 20px;
+            padding: 10px;
+            margin: 1px;
+        }
+        .bigImage {
+            max-width: 100%;
+            height: 200px;
+            background: url("VolkovBanner.jpg");
+            background-color: darkviolet;
+            background-size: cover;
+            border: 4px solid black;
+            margin: 1px;
+        }
+        .body {
+            max-width: 100%;
+            padding: 50px;
+            background-color: violet;
+            border: 4px solid black;
+            margin: 1px;
+            gap: 40px;
+        }
+        .text {
+            display: flex;
+            flex-direction: column;
+            align-items: flex-start;
+            max-width: 80%;
+        }
+        .footer {
+            max-width: 100%;
+            border: 4px solid black;
+            margin: 1px;
+            background-color: lightpink;
+            padding: 10px;
+        }
+    </style>
+</head>
+<body>
+    <div class="menu flex">
+        <a href="monkdiamonddiscovery.html">The Monk Diamond Discovery</a> /
+        <a href="listapp.html">The List App</a> /
+        <a href="route.html">The Route</a> /
+        <a href="index.html">Home</a> /
+        <a href="diamond.html">The Diamond</a> /
+        <a href="discovery.html">The Discovery</a> /
+        <a href="exhibition.html">The Exhibition</a>
+    </div>
+    <div class="bigImage"></div>
+    <div class="body flex">
+        <div class="text">
+            <h1>The House of Volkov</h1>
+            <p>
+                The House of Volkov is the oldest jewellery house in Moscow.<br>
+                Please come and visit us.<br>
+                We are near St Basil's Cathedral.<br>
+                Address:<br>
+                The House of Volkov<br>
+                St Basil's Cathedral<br>
+                Moscow
+            </p>
+        </div>
+        <iframe
+            src="https://www.google.com/maps/embed/v1/search?q=Moscow&key=API-KEY"
+            max-width="20%"
+            style="border: 4px solid black;">
+        </iframe>
+    </div>
+    <div class="footer flex">
+        Contact Professor Bairstone: profbairstone@intrepidexlorer.com
+    </div>
+</body>
+</html>

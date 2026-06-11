@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Top Secret Route</title>
+    <style>
+        .menu {
+            max-width: 100%;
+            padding: 10px;
+            background-color: violet;
+            gap: 20px;
+        }
+        .heading {
+            background-color: red;
+            color: green;
+        }
+        .images {
+            gap: 250px;
+            background-color: orange;
+            border: 5px solid blue;
+        }
+        .footer {
+            max-width: 100%;
+            border: 4px solid red;
+            margin: 1px;
+            background-color: violet;
+            padding: 10px
+        }
+        .flex {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+        body {
+            background-color: #111;
+        }
+    </style>
+</head>
+<body>
+    <center>
+        <div class="heading">
+            <h1>
+                Top Secret Route
+            </h1>
+            <h3>
+                Route from Gorky Park to St. Basil (Moscow)
+            </h3>
+            <div class="menu flex">
+                <a href="monkdiamonddiscovery.html">The Monk Diamond Discovery</a>/
+                <a href="listapp.html">The List App</a>/
+                <a href="index.html">Home</a>/
+                <a href="diamond.html">The Diamond</a>/
+                <a href="discovery.html">The Discovery</a>/
+                <a href="exhibition.html">The Exhibition</a>/
+                <a href="volkov.html">The House of Volkov</a>
+            </div>
+        </div>
+        <div class="images flex">
+            <img src="BondBrother.jpg" alt="A Bond Brother">
+            <img src="Invitation.jpg" alt="The Invitation">
+        </div>
+        <iframe
+            src="https://google.com/maps/embed/v1/directions?origin=GorkyPark,Moscow&destination=StBasil,Moscow&key=API-KEY"
+            frameborder="5px solid black"
+            width="1000px"
+            height="1000px">
+        </iframe>
+    </center>
+    <div class="footer flex">Contact Professor Bairstone: profbairstone@intrepidexplorer.com</div>
+</body>
+</html>
